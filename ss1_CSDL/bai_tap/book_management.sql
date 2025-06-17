@@ -2,7 +2,7 @@ create database book_management;
 use book_management;
 
 create table books(
-id int primary key not null auto_increment,
+id int primary key auto_increment,
 name varchar(100),
 page_size int,
 author varchar(200)
