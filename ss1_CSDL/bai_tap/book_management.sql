@@ -15,8 +15,8 @@ insert into books(id,name,page_size,author) values(4,"Địa",76,"Lê Văn Hiế
 insert into books(id,name,page_size,author) values(5,"Hóa",32,"Hà Văn Minh");
 select* from books;
 SET SQL_SAFE_UPDATES = 0;
-SET SQL_SAFE_UPDATES = 1;
 update books  set page_size=50 where name='Sử';
+SET SQL_SAFE_UPDATES = 1;
 delete from books where id=5;
 truncate table books;
 drop table books;
