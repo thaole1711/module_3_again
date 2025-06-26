@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5516fdff-e36d-4937-acab-3fce39951217" name="Changes" comment="" />
+    <list default="true" id="5516fdff-e36d-4937-acab-3fce39951217" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/sevice/CategorySevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/sevice/ICategorySevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/repository/IBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/repository/IBookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/sevice/BookSevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/sevice/BookSevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/sevice/IBookSevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/java/sevice/IBookSevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/webapp/view/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/webapp/view/addBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/webapp/view/book.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/webapp/view/book.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/webapp/view/updateBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ss11/quan_ly_thu_vien/src/main/webapp/view/updateBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss2_design_CSDL/quan_ly_thu_vien.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss2_design_CSDL/quan_ly_thu_vien.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc_trang_web/MyPortfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc_trang_web/MyPortfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss8_boostrap/boostrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_boostrap/boostrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_tong_quan_javaWeb/login/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_tong_quan_javaWeb/login/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_tong_quan_javaWeb/login/src/main/java/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_tong_quan_javaWeb/login/src/main/java/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_tong_quan_javaWeb/login/src/main/webapp/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_tong_quan_javaWeb/login/src/main/webapp/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_tong_quan_javaWeb/login/src/main/webapp/view/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_tong_quan_javaWeb/login/src/main/webapp/view/success.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +58,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/codegym/module_3_again&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -44,6 +67,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\module_3_again" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,6 +91,8 @@
       <workItem from="1750211617354" duration="40000" />
       <workItem from="1750212537159" duration="7873000" />
       <workItem from="1750298888767" duration="31000" />
+      <workItem from="1750739423288" duration="10086000" />
+      <workItem from="1750841746613" duration="80000" />
     </task>
     <servers />
   </component>

@@ -9,9 +9,17 @@
 <html>
 <head>
     <title>Title</title>
+    <style>
+        p{
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+
 </head>
 <body>
-<p>${param.now}</p>
+<p style="color: red ; font-size: large">Đăng nhập thành công!</p>
+<p>${now}</p>
 
 </body>
 </html>

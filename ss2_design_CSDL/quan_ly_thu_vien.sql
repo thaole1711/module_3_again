@@ -33,3 +33,8 @@ return_date varchar(50) not null,
 foreign key (id_student) references students(id_student),
 foreign key (id_book) references books(id_book)
 );
+select * from books;
+select* from category;
+update books set title="Lý",page_size=12,id_category=2,id_authors=4 where id_book=11;
+select * from books where id_book=2;
+select * from books where id_category=2 or title="tin" or title like "%a%";

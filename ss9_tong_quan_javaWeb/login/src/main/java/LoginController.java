@@ -26,12 +26,13 @@ public class LoginController extends HttpServlet {
         if (action.equals("login")) {
            String user = req.getParameter("user");
            String password = req.getParameter("password");
-           if(user.equals("addmin") && password.equals("123abc")) {
+           if(user.equals("admin") && password.equals("123abc")) {
                LocalDateTime now = LocalDateTime.now();
+               req.setAttribute("use",user);
                req.setAttribute("now",now);
               req.getRequestDispatcher("/view/success.jsp").forward(req,resp);
            }   else{
-                 resp.sendRedirect("/view/login?mess=ten dang nhap hoac mat khau khong dung");
+                 resp.sendRedirect("/login?mess=ten dang nhap hoac mat khau khong dung");
                }
         }
     }

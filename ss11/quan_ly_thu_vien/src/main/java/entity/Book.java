@@ -15,6 +15,17 @@ public class Book {
         this.authorId = authorId;
     }
 
+    public Book(String title, int pageSize, int categoryId, int authorId) {
+        this.title = title;
+        this.pageSize = pageSize;
+        this.categoryId = categoryId;
+        this.authorId = authorId;
+    }
+
+    public Book() {
+
+    }
+
     public int getBookId() {
         return bookId;
     }
