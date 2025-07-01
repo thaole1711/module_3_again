@@ -1,6 +1,8 @@
-package Sevice;
+package com.example.demo.sevice;
 
-import Entity.Student;
+
+
+import com.example.demo.entity.Student;
 
 import java.util.List;
 

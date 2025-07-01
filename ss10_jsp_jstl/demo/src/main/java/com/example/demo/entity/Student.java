@@ -1,4 +1,4 @@
-package Entity;
+package com.example.demo.entity;
 
 public class Student {
     int idStudent;

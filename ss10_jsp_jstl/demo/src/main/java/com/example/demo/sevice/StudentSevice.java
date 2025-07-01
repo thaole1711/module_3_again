@@ -1,8 +1,9 @@
-package Sevice;
+package com.example.demo.sevice;
 
-import Entity.Student;
-import Repository.IStudentRepository;
-import Repository.StudentRepository;
+
+import com.example.demo.entity.Student;
+import com.example.demo.repository.IStudentRepository;
+import com.example.demo.repository.StudentRepository;
 
 import java.util.List;
 

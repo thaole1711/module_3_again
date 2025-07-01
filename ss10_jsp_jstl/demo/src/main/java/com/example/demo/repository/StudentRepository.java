@@ -1,6 +1,8 @@
-package Repository;
+package com.example.demo.repository;
 
-import Entity.Student;
+
+
+import com.example.demo.entity.Student;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
