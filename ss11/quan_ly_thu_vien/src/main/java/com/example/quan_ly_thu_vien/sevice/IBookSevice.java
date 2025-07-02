@@ -1,10 +1,10 @@
-package repository;
+package com.example.quan_ly_thu_vien.sevice;
 
-import entity.Book;
+import com.example.quan_ly_thu_vien.entity.Book;
 
 import java.util.List;
 
-public interface IBookRepository {
+public interface IBookSevice {
     List<Book> findAll();
     boolean addBook( Book book);
     boolean deleteBook(int id);

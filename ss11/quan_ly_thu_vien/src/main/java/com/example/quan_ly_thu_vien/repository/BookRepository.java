@@ -1,6 +1,6 @@
-package repository;
+package com.example.quan_ly_thu_vien.repository;
 
-import entity.Book;
+import com.example.quan_ly_thu_vien.entity.Book;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

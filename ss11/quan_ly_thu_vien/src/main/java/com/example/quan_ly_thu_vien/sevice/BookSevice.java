@@ -1,8 +1,8 @@
-package sevice;
+package com.example.quan_ly_thu_vien.sevice;
 
-import entity.Book;
-import repository.BookRepository;
-import repository.IBookRepository;
+import com.example.quan_ly_thu_vien.entity.Book;
+import com.example.quan_ly_thu_vien.repository.BookRepository;
+import com.example.quan_ly_thu_vien.repository.IBookRepository;
 
 import java.util.List;
 

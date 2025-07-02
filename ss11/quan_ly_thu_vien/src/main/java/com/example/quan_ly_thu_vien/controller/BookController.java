@@ -1,12 +1,12 @@
-package controller;
+package com.example.quan_ly_thu_vien.controller;
 
 
-import entity.Book;
-import entity.Category;
-import sevice.BookSevice;
-import sevice.CategorySevice;
-import sevice.IBookSevice;
-import sevice.ICategorySevice;
+import com.example.quan_ly_thu_vien.entity.Book;
+import com.example.quan_ly_thu_vien.entity.Category;
+import com.example.quan_ly_thu_vien.sevice.BookSevice;
+import com.example.quan_ly_thu_vien.sevice.CategorySevice;
+import com.example.quan_ly_thu_vien.sevice.IBookSevice;
+import com.example.quan_ly_thu_vien.sevice.ICategorySevice;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -31,14 +31,14 @@ public class BookController extends HttpServlet {
         switch (action) {
             case "add":
                 req.setAttribute("category",categories);
-                req.getRequestDispatcher("view/addBook.jsp").forward(req,resp);
+                req.getRequestDispatcher("/WEB-INF/view/addBook.jsp").forward(req,resp);
                 break;
             case "update":
                 int id= Integer.parseInt(req.getParameter("id"));
                 Book book=iBookSevice.findId(id);
                 req.setAttribute("category", categories);
                 req.setAttribute("book",book);
-                req.getRequestDispatcher("/view/updateBook.jsp").forward(req,resp);
+                req.getRequestDispatcher("/WEB-INF/view/updateBook.jsp").forward(req,resp);
                 break;
             case "search":
                 String paramId=req.getParameter("categoryId");
@@ -47,13 +47,13 @@ public class BookController extends HttpServlet {
                List<Book> bookLists= iBookSevice.search(id_search,name_search);
                req.setAttribute("books",bookLists);
                 req.setAttribute("category",categories);
-                req.getRequestDispatcher("view/book.jsp").forward(req, resp);
+                req.getRequestDispatcher("/WEB-INFview/book.jsp").forward(req, resp);
                 break;
             default:
                 List<Book> bookList = iBookSevice.findAll();
                 req.setAttribute("category",categories);
                 req.setAttribute("books", bookList);
-                req.getRequestDispatcher("view/book.jsp").forward(req, resp);
+                req.getRequestDispatcher("/WEB-INF/view/book.jsp").forward(req, resp);
         }
     }
 

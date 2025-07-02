@@ -1,4 +1,4 @@
-package repository;
+package com.example.quan_ly_thu_vien.repository;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

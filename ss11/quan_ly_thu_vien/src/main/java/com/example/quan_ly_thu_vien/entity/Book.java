@@ -1,4 +1,4 @@
-package entity;
+package com.example.quan_ly_thu_vien.entity;
 
 public class Book {
    int bookId;

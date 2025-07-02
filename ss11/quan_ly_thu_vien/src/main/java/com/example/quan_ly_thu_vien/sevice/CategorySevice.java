@@ -1,8 +1,8 @@
-package sevice;
+package com.example.quan_ly_thu_vien.sevice;
 
-import entity.Category;
-import repository.CategoryRepository;
-import repository.ICategoryRepository;
+import com.example.quan_ly_thu_vien.entity.Category;
+import com.example.quan_ly_thu_vien.repository.CategoryRepository;
+import com.example.quan_ly_thu_vien.repository.ICategoryRepository;
 
 import java.util.List;
 
