@@ -123,7 +123,7 @@
                 </td>
                 <td>${book.authorId}</td>
                 <td>
-                    <button onclick="deleteInfo(`${book.bookId}`,`${book.title}`)"
+                    <button onclick="deleteInfo(${book.bookId},'${book.title}')"
                             class="btn btn- btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <i class="bi bi-trash text-danger me-2"></i></button>
                 </td>
@@ -154,7 +154,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <input hidden="hidden" id="deleteId" name="deleteId">
+                    <input type="hidden" id="deleteId" name="deleteId" >
                     <span>Bạn có muốn xoá </span> <span id="deleteName"></span> không?
                 </div>
                 <div class="modal-footer">
@@ -167,6 +167,7 @@
 </div>
 <script>
     function deleteInfo(id, name) {
+        console.log(id)
         document.getElementById("deleteId").value = id;
         document.getElementById("deleteName").innerText = name;
     }

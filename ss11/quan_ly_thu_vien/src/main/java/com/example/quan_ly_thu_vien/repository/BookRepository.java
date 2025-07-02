@@ -11,9 +11,9 @@ import java.util.List;
 
 public class BookRepository implements IBookRepository {
     private final String SELECT_ALL = "select * from books;";
-    private final String INSERT_INTO = " INSERT INTO `quan_ly_thu_vien`.`books` (`title`, `page_size`, `id_category`, `id_authors`) VALUES (?,?,?,?);";
+    private final String INSERT_INTO = " INSERT INTO `quan_ly_thu_vien`.`books` (`title`, `page_size`, `id_category`, `id_author`) VALUES (?,?,?,?);";
     private final String DELETE_ID = "delete from books where id_book=?;";
-    private final String UPDATE_ID = "update books set title=?,page_size=?,id_category=?,id_authors=? where id_book=?;";
+    private final String UPDATE_ID = "update books set title=?,page_size=?,id_category=?,id_author=? where id_book=?;";
     private final String SELECT_ID = "select * from books where id_book=?;";
     private final String SELECT_SEARCH="select * from books where (id_category=? or ?=0) and (title=? or title like ?);";
 
@@ -30,7 +30,7 @@ public class BookRepository implements IBookRepository {
                 String title = resultSet.getString("title");
                 int pageSize = resultSet.getInt("page_size");
                 int idCategory = resultSet.getInt("id_category");
-                int idAuthor = resultSet.getInt("id_authors");
+                int idAuthor = resultSet.getInt("id_author");
                 bookList.add(new Book(bookId, title, pageSize, idCategory, idAuthor));
             }
         } catch (SQLException e) {
@@ -118,7 +118,7 @@ public class BookRepository implements IBookRepository {
                 String title = resultSet.getString("title");
                 int pageSize = resultSet.getInt("page_size");
                 int idCategory = resultSet.getInt("id_category");
-                int idAuthor = resultSet.getInt("id_authors");
+                int idAuthor = resultSet.getInt("id_author");
                 list.add(new Book(bookId, title, pageSize, idCategory, idAuthor));
             }
         } catch (SQLException e) {

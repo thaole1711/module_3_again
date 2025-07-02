@@ -38,8 +38,8 @@
 
         <div class="mb-3">
             <label for="formGroupExampleInput" class="form-label">Trang</label>
-            <input pattern="[0-9]+" title="chỉ nhập số" name="pageSize" required value="${book.pageSize}"
-                   type="text" class="form-control" id="formGroupExampleInput" placeholder="pageSize">
+            <input pattern="[0-9]+" title="chỉ nhập số" min="10" max="400" name="pageSize" required value="${book.pageSize}"
+                   type="text"  class="form-control" id="formGroupExampleInput" placeholder="pageSize">
         </div>
 
         <div class="mb-3">
@@ -56,7 +56,7 @@
         <div class="mb-3">
             <label for="formGroupExampleInput2" class="form-label">Mã tác giả</label>
             <input pattern="[0-9]+" title="chỉ nhập số" name="authorId" required value="${book.authorId}"
-                   type="text" class="form-control" id="formGroupExampleInput2" placeholder="authorId">
+                   type="number" min="1" max="7" class="form-control" id="formGroupExampleInput2" placeholder="authorId">
         </div>
 
         <div class="d-flex justify-content-end gap-2 mt-2">

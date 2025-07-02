@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CategoryRepository implements ICategoryRepository {
-    private final String SELECT_CATEGORY = "select* from category;";
+    private final String SELECT_CATEGORY = "select* from categories;";
 
     @Override
     public List<Category> findAll() {
